@@ -26,10 +26,10 @@ class Dialog extends Component{
       <div className="dialog">
          <div>
          <h3>你想做点什么</h3>
-         <input type="text" ref="myText" placeholder="开始做起来吧"/>
-         </div>      
+         </div>
          <div>
-           <button onClick={this.handleClick}>save</button>
+         <input type="text" ref="myText" placeholder="开始做起来吧"/>
+           <button id="addBtn" onClick={this.handleClick}>save</button>
          </div>
       </div>
     );
